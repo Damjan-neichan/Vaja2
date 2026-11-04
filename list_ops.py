@@ -4,7 +4,14 @@ def vsota_stevil(sez):
     vsota = 0
     for i in range(len(sez)):
         vsota+= sez[i]
-        print(i)
     print(vsota)
 
-vsota_stevil(sez)
+#vsota_stevil(sez)
+
+def povp_vred(sez):
+    vsota = 0
+    for i in range(len(sez)):
+        vsota+= sez[i]
+    print(vsota / len(sez))
+
+povp_vred(sez)
