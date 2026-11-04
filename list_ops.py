@@ -64,4 +64,17 @@ def uredi_sez(sez):
     sez.append(x)
     print(sez)
 
-uredi_sez(sez)
+#uredi_sez(sez)
+
+def odstrani_sez(sez):
+    x = int(input("Vnesi stevilo: "))
+    
+    if x in sez:
+        sez.remove(x)  
+        print("Število uspešno odstranjeno.")
+    else:
+        print(f"Števila {x} ni v seznamu.")
+        
+    print("Trenutni seznam:", sez)
+
+odstrani_sez(sez)
