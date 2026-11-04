@@ -41,7 +41,7 @@ def prestej_sodo(sez):
             stevec+=1
     print(stevec)
 
-prestej_sodo(sez)
+#prestej_sodo(sez)
 
 def prestej_liho(sez):
     stevec=0
@@ -50,4 +50,11 @@ def prestej_liho(sez):
             stevec+=1
     print(stevec)
 
-prestej_liho(sez)
+#prestej_liho(sez)
+
+def izpis_vecje10(sez):
+    for i in range(len(sez)):
+        if sez[i] > 10:
+            print(sez[i])
+
+izpis_vecje10(sez)
