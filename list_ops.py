@@ -57,4 +57,10 @@ def izpis_vecje10(sez):
         if sez[i] > 10:
             print(sez[i])
 
-izpis_vecje10(sez)
+#izpis_vecje10(sez)
+
+def uredi_sez(sez):
+    sez.sort()
+    print(sez)
+
+uredi_sez(sez)
