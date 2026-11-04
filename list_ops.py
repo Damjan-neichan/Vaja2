@@ -32,4 +32,13 @@ def najmanjse_st(sez):
             min_st = sez[i]
     print(min_st)
 
-najmanjse_st(sez)
+#najmanjse_st(sez)
+
+def prestej_sodo(sez):
+    stevec=0
+    for i in range(len(sez)):
+        if sez[i] % 2 == 0:
+            stevec+=1
+    print(stevec)
+
+prestej_sodo(sez)
