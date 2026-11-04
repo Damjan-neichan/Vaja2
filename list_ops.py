@@ -23,4 +23,13 @@ def najvecje_st(sez):
             max_st = sez[i]
     print(max_st)
 
-najvecje_st(sez)
+#najvecje_st(sez)
+
+def najmanjse_st(sez):
+    min_st = sez[0]
+    for i in range(1,len(sez)):
+        if sez[i] < min_st:
+            min_st = sez[i]
+    print(min_st)
+
+najmanjse_st(sez)
