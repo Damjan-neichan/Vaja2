@@ -60,7 +60,8 @@ def izpis_vecje10(sez):
 #izpis_vecje10(sez)
 
 def uredi_sez(sez):
-    sez.sort()
+    x = int(input("Vnesi stevilo: "))
+    sez.append(x)
     print(sez)
 
 uredi_sez(sez)
