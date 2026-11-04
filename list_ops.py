@@ -14,4 +14,13 @@ def povp_vred(sez):
         vsota+= sez[i]
     print(vsota / len(sez))
 
-povp_vred(sez)
+#povp_vred(sez)
+
+def najvecje_st(sez):
+    max_st = sez[0]
+    for i in range(1,len(sez)):
+        if sez[i] > max_st:
+            max_st = sez[i]
+    print(max_st)
+
+najvecje_st(sez)
