@@ -42,3 +42,12 @@ def prestej_sodo(sez):
     print(stevec)
 
 prestej_sodo(sez)
+
+def prestej_liho(sez):
+    stevec=0
+    for i in range(len(sez)):
+        if sez[i] % 2 != 0:
+            stevec+=1
+    print(stevec)
+
+prestej_liho(sez)
